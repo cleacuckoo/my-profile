@@ -1,0 +1,101 @@
+body {
+  background-color:#FFFEFC;
+  color: rgba(0, 0, 2, 0.6);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+h1, h2 {
+  color: #111111;
+
+}
+h1 {
+  font-family: 'Plafair Display', serif;
+  font-style: italic;
+  font-size: 42px;
+
+}
+
+h2 {
+ font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 320px;
+  }
+}
+
+.card-white {
+    background: white;
+    margin: 40px 0px;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.btn-cta {
+  width: 150px;
+  margin: 15px 20px;
+  padding: 10px;
+  color: #FFFFFF;
+  background: #e16259;
+  border: 1px solid #be5643;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(15, 15, 15, 0.1);
+}
+
+
+.btn-cta:hover {
+  background: #be5643;
+  color: #FFFFFF;
+}
+
+.btn-cta:visited {
+  color: #FFFFFF;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #e16259;
+}
+
+.list-inline i:hover {
+  color: #be5643;
+}
+
+#intro p {
+  margin-bottom: 40px;
+}
